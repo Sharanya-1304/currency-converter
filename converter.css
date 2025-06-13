@@ -1,0 +1,44 @@
+body {
+    background: #e6f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.converter {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+.converter h2 {
+    color: #007acc;
+}
+
+.converter input, .converter select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.converter button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
